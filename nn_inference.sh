@@ -1,0 +1,10 @@
+rye run python bin/inference.py exp_name=transformer_0 phase=test use_amp=false
+rye run python bin/inference.py exp_name=transformer_1 phase=test use_amp=false
+rye run python bin/inference.py exp_name=transformer_2 phase=test use_amp=false
+rye run python bin/inference.py exp_name=transformer_3 phase=test use_amp=false
+rye run python bin/inference.py exp_name=transformer_4 phase=test use_amp=false
+rye run python bin/inference.py exp_name=transformer_0 phase=val use_amp=false
+rye run python bin/inference.py exp_name=transformer_1 phase=val use_amp=false
+rye run python bin/inference.py exp_name=transformer_2 phase=val use_amp=false
+rye run python bin/inference.py exp_name=transformer_3 phase=val use_amp=false
+rye run python bin/inference.py exp_name=transformer_4 phase=val use_amp=false
